@@ -15,7 +15,7 @@ Three Routes:
 ## Tech/framework used
 
 <b>Built with</b>
-- [Electron](https://electron.atom.io)
+- [Spring](https://electron.atom.io)
 
 ## Features
 What makes your project stand out?
