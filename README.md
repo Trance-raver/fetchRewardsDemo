@@ -27,7 +27,7 @@ git clone https://github.com/Trance-raver/fetchRewardsDemo.git
 **2. Run the app using maven**
 
 ```bash
-mvn spring-boot:run
+mvnw spring-boot:run
 ```
 The app will start running at <http://localhost:8080/fetch>
 ## Explore Rest APIs
