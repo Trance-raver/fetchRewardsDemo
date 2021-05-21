@@ -16,7 +16,7 @@ Three Routes:
 
 <b>Built with</b>
 - [Spring](https://spring.io)
-- JAVA 11
+- JAVA 11 (JAVA 11 is required to set up on your path)
 ## Steps to Setup
 
 **1. Clone the application**
