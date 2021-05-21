@@ -1,6 +1,11 @@
 # fetchRewardsDemo
-## Project title
-A little info about your project and/ or overview that explains **what** the project is about.
+## Fetch Rewards Coding Exercise - Backend Software Engineering
+Web Service that accepts HTTP requests to track and spend user points.
+Three Routes:
+● Adds transactions for a specific payer and date.
+● Spends points using the rules above and return a list of { "payer": <string>, "points": <integer> } for each call.
+● Returns all payer point balances
+
 
 ## Motivation
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
