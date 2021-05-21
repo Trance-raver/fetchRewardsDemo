@@ -2,9 +2,9 @@
 ## Fetch Rewards Coding Exercise - Backend Software Engineering
 Web Service that accepts HTTP requests to track and spend user points.
 Three Routes:
-● Adds transactions for a specific payer and date.
-● Spends points using the rules above and return a list of { "payer": <string>, "points": <integer> } for each call.
-● Returns all payer point balances
+* Adds transactions for a specific payer and date.
+* Spends points using the rules above and return a list of { "payer": <string>, "points": <integer> } for each call.
+* Returns all payer point balances
 
 
 ## Motivation
