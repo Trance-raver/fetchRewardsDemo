@@ -41,11 +41,11 @@ public class mainController {
     public ArrayList<SpendResponse> spend(@RequestBody Spending spend) {
         int points = spend.getPoints();
 
-        return (spendingService.spendPoints(data, tempData, points));
+        return (spendingService.spendPoints(data, tempData, points,mainData));
     }
 
     @RequestMapping(value = "/show", method = RequestMethod.GET, produces = "application/JSON")
     public HashMap<String, Integer> show() {
-        return spendingService.calPoints(tempData, mainData);
+        return mainData;
     }
 }
