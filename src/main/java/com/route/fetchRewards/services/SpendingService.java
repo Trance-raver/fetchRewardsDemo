@@ -1,6 +1,5 @@
 package com.route.fetchRewards.services;
 
-import com.google.gson.Gson;
 import com.route.fetchRewards.dto.SpendResponse;
 import com.route.fetchRewards.dto.Transcation_DTO;
 import org.springframework.stereotype.Service;
@@ -15,7 +14,6 @@ public class SpendingService {
 
     public ArrayList<SpendResponse> spendPoints(ArrayList<Transcation_DTO> data, HashMap<String, Integer> tempData, int points) {
         int len = data.size();
-        Gson gson = new Gson();
         for (int i = 0; i < len; i++) {
             if (points <= 0)
                 break;
